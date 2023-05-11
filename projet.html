@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-  
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <title>Document</title>
 </head>
 <body>
-    <header class="header" id="header">
+    <header class="header " id="header">
         <nav class="nav contenu">
-            <a href="présentation.html" class="nav_logo">Fatima</a>
+            <a href="index.html" class="nav_logo">Fatima</a>
 
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list grille">
@@ -58,66 +58,73 @@
         </nav>
     </header>
 <main class="main">
+    <section class="projet section" id="projet">
 
-    <section class="presentation section" id="presentation">
-        <div class="presentation_contenu contenu grille">
-            <div class="presentation_content grille">
-                <div class="presentation_social">
-                    <a href="https://www.linkedin.com/in/camila-doumbia-621a8622b/" target="_blank" class="presentation_social-icon">
-                        <i class="uil uil-linkedin-alt"></i>
-                    </a>
+        <h2 class="section_titre">
+            PROJETS
+        </h2>
+        <span class="section_soutitre">
+            Quelques aspects de projets
+        </span>
+        <div class="projet_contenu contenu swiper mySwiper">
+            <div class="swiper-wrapper">
+                <!-- ======================================== projet 1======================== -->
+                <div class="projet_content grille swiper-slide">
+                    <img src="img/projet1 (1).jpg" alt="" class="projet_img">
 
-                    <a href="https://dribble.com/" target="_blank" class="presentation_social-icon">
-                        <i class="uil uil-dribbble"></i>   
-                    </a>
+                    <div class="projet_data">
+                        <h3 class="projet_titre"> Site Web Moderne</h3>
 
-                    <a href="https://github.com/Doumbiafat" target="_blank" class="presentation_social-icon">
-                        <i class="uil uil-github-alt"></i>   
-                    </a>
+                        <p class="projet_description">Site Web adaptable à tous les appareils, avec des composants d'interface utilisateur et des interactions animées.</p>
+                        <a href="#" class="button button--flex button--small projet_button">
+                            Demo
+                            <i class="uil uil-arrow-right button_icon"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="presentation_img">
-                    <svg  class="presentation_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                            <image class="presentation_blob-img"x='12' y="18" href="img/presen-removebg-preview.png"/>
-                        </g>
-                    </svg>
+
+                 <!-- ======================================== projet 2======================== -->
+                 <div class="projet_content grille swiper-slide">
+                    <img src="img/projet1 (2).jpg" alt="" class="projet_img">
+
+                    <div class="projet_data">
+                        <h3 class="projet_titre">Conception de la marque </h3>
+
+                        <p class="projet_description">Des logos faites avec du professionnalisme principalement sur Photoshop.</p>
+                        <a href="#" class="button button--flex button--small projet_button">
+                            Demo
+                            <i class="uil uil-arrow-right button_icon"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="presentation_data">
-                    <h1 class="presentation_titre">
-                        Salut, je m'appelle Fatimata 
-                    </h1>
-                    <h3 class="presentation_soutitre">Developpeuse Frontend</h3>
-                    <p class="presentation_description">
-                        Expérience de haut niveau dans la conception et le développement de sites Web, produisant un travail de qualité.
-                     </p>
-                     <a href="contact.html" class="button button--flex">
-                       Contacte Moi <i class="uil uil-message button_icon"></i>
-                     </a>
+
+                 <!-- ======================================== projet 3======================== -->
+                 <div class="projet_content grille swiper-slide">
+                    <img src="img/projet1 (3).jpg" alt="" class="projet_img">
+
+                    <div class="projet_data">
+                        <h3 class="projet_titre"> Online Store</h3>
+
+                        <p class="projet_description">Vente de kit et materiels Informatique.</p>
+                        <a href="#" class="button button--flex button--small projet_button">
+                            Demo
+                            <i class="uil uil-arrow-right button_icon"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="presentation_scroll">
-                <a href="etude.html" class="presentation_scroll-button button--flex">
-                    <i class="uil uil-mouse-alt presentation_scroll-mouse"></i>
-                    <span class="presentation_scroll-name">Voir Plus</span>
-                    <i class="uil uil-arrow-right presentation_scroll-arrow"></i>
-                </a>
-            </div>
+
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-projet-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-projet-icon"></i>
+                </div>
+
+                <div class="swiper-pagination"></div>
         </div>
     </section>
-
-    
 </main>
-
    <!-- ======================================= FOOTER=================================== -->
    <footer class="footer">
     <div class="footer_bg">
@@ -154,12 +161,13 @@
                     <i class="uil uil-twitter-alt"></i>
                 </a>
             </div>
+            
         </div>
         <p class="footer_copy">&#169; DoumbiaFatimtaUTA. All right reserved</p>
     </div>
 </footer>
 
-    
+    <script src="js/swiper-bundle.min.js"></script>
  <script src="js/main.js"></script>
 </body>
 </html>
